@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>ToDo app</title>
+</head>
+
+<body class="bg-gray-900">
+    <div class="container bg-gray-500 rounded shadow-2xl grid grid-rows-2 justify-center text-center m-auto mt-10 p-10">
+        <h1 class="text-white  font-bold  text-4xl pt-3"> ToDo List</h1>
+        <div class="inputs h-16 w-96 rounded bg-gray-800 grid grid-cols-3 justify-center ">
+            <input type="text" name="todos" class="taskinput rounded bg-gray-300 h-10 col-span-2 m-3 text-center">
+            <button class="addbtn text-white bg-red-500 h-10 rounded m-3 text-3xl font-bold hover:bg-red-800">+</button>
+        </div>
+        <div class="todos   bg-gray-700 rounded mt-5 "></div>
+    </div>
+
+    <footer>
+        <div class="copyright bg-gray-700 m-14 text-center rounded">
+            <p class="text-gray-300">
+                Designed by <span class="font-bold">Hakkou Mouataz</span>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
